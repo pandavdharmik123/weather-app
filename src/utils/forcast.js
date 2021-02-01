@@ -19,7 +19,7 @@ const forcast = (city, country, callback) => {
             //     temperature: response.body.response.ob.tempC,
             //     percentage: response.body.response.ob.precipIN
             // })
-            callback(undefined, 'It is currently: ' + response.body.main.temp + ' ℉ out. This is ' + response.body.clouds.all + ' % chance for a rain.');
+            callback(undefined, 'It is currently: ' + response.body.main.temp + ' ℉ out, Humidity level is ' + response.body.main.humidity  + ' and ' + response.body.clouds.all + ' % chance for a rain.');
         }
     })
 
