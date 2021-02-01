@@ -1,6 +1,5 @@
 // const { response } = require("express"); 
 
-console.log('Client side javascript file!');
 
 
 // fetch('http://localhost:3001/weather?address=Surat,Guajart')
