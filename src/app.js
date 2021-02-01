@@ -75,7 +75,7 @@ app.get('/weather', (req, res) =>{
         forcast(city, country, (error, data) => {
             if(error){
                 return res.send({
-                    error: 'Unable to find weather!'
+                    error: 'Unable to find weather!!'
                 });
             }
             // if(data){
